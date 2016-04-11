@@ -3,9 +3,9 @@
   <script type="text/javascript">
 
 
-  var audio = new Audio('Audio/LowE String.wav');
+  play(){var audio = new Audio('Audio/LowE String.wav');
   audio.play();
-
+}
 
 </script>
 
@@ -13,13 +13,13 @@
 
 <link type="text/css" rel="stylesheet" href="css/main.css" />
 
+<input id="clickMe" type="button" value="clickme" onclick="play();" />
 
 
 <title>Air Guitar</title>
 
 <body>
 
-<input id="clickMe" type="button" value="clickme" onclick="play();" />
 
   <audio>
   	<source id="LowE" src="Audio/LowE String.wav"></source>
