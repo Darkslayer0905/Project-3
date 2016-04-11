@@ -1,7 +1,10 @@
-var audio = document.getElementsByTagName("audio")[0];
-audio.play();
 
 // or with an ID
 
-var audio = document.getElementById("mySoundClip");
+var audio = document.getElementById("LowE");
 audio.play();
+
+
+$(document).ready( function() {
+  alert("jQuery is working!");
+});
