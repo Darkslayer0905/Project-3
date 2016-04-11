@@ -6,6 +6,7 @@
   var audio = new Audio('Audio/LowE String.wav');
   audio.play();
 
+var audio = $("#LowE")[0];
 $("Fretboard").mouseenter(function() {
   audio.play();
 });
@@ -23,7 +24,10 @@ $("Fretboard").mouseenter(function() {
 
 <body>
 
+  <p onmouseover="PlaySound('mySound')"
+      onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
 
+  <audio id='mySound' src='Audio/A String'></audio>
 
 
   <audio>
