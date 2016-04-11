@@ -3,9 +3,12 @@
   <script type="text/javascript">
 
 
-  play(){var audio = new Audio('Audio/LowE String.wav');
+  var audio = new Audio('Audio/LowE String.wav');
   audio.play();
-}
+
+$("Fretboard").mouseenter(function() {
+  audio.play();
+});
 
 </script>
 
@@ -13,12 +16,14 @@
 
 <link type="text/css" rel="stylesheet" href="css/main.css" />
 
-<input id="clickMe" type="button" value="clickme" onclick="play();" />
+
 
 
 <title>Air Guitar</title>
 
 <body>
+
+
 
 
   <audio>
