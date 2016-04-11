@@ -5,12 +5,7 @@
 
   var audio = new Audio('Audio/LowE String.wav');
   audio.play();
-
-var audio = $("#LowE")[0];
-$("Fretboard").mouseenter(function() {
-  audio.play();
-});
-
+  
 </script>
 
 </head>
@@ -23,12 +18,6 @@ $("Fretboard").mouseenter(function() {
 <title>Air Guitar</title>
 
 <body>
-
-  <p onmouseover="PlaySound('mySound')"
-      onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
-
-  <audio id='mySound' src='Audio/A String'></audio>
-
 
   <audio>
   	<source id="LowE" src="Audio/LowE String.wav"></source>
