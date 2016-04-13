@@ -7,9 +7,6 @@ h1 {
   padding-top: 5%;
   font-size: 2em;
 }
-div {
-  margin-bottom: 0;
-}
 #Fretboard {
   position: fixed;
   margin-left: 25%;
