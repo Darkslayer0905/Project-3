@@ -5,12 +5,19 @@ body{
   background-color: black;
 }
 
+h1{
+  z-index: 2;
+  color: white;
+  margin-left: auto;
+}
+
 #Fretboard{
   position: fixed;
   display: block;
   margin-left: 25%;
   margin-right: auto;
   margin-top: 5%;
+  z-index: 1;
 }
 
 a{
@@ -19,6 +26,11 @@ a{
   color: black;
 }
 
+.MenuBar{
+  position: relative;
+  margin-left: 20%;
+  padding-top: 5%;
+}
 
 a:hover {
   opacity: 0.7;
@@ -41,7 +53,6 @@ a:active {
 //width breakpoints
 @media screen and (min-width:300px) {
 
-
     .page-container{
       width: 80%;
     }
@@ -49,6 +60,10 @@ a:active {
 }
 
 @media screen and (min-width:500px) {
+
+  .MenuBar{
+    padding-top: 10%;
+  }
 
   a{
     font-size: 2em;
