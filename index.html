@@ -1,29 +1,6 @@
 <head>
   <script type="text/javascript" src="jquery-1.12.2.js"></script>
-  <script type="text/javascript">
 
-
-
-  var audio = new Audio('Audio/LowE String.wav');
-  audio.play();
-
-  var audio2 = new Audio('Audio/A String.wav');
-  audio2.play();
-
-  var audio3 = new Audio('Audio/D String.wav');
-  audio3.play();
-
-  var audio4 = new Audio('Audio/G String.wav');
-  audio4.play();
-
-  var audio5 = new Audio('Audio/B String.wav');
-  audio5.play();
-
-  var audio6 = new Audio('Audio/HighE String.wav');
-  audio6.play();
-
-
-</script>
 
 </head>
 
@@ -37,8 +14,103 @@
 <body>
 
 
+<a href="#" class="LowE">E</a>
+<a href="#" class="A">A</a>
+<a href="#" class="D">D</a>
+<a href="#" class="G">G</a>
+<a href="#" class="B">B</a>
+<a href="#" class="HighE">E</a>
+
 <div>
       <img id="Fretboard" src="Images/fretboard.jpg">
  </div>
+
+
+
+ <script>
+
+     $(document).ready(function() {
+         var obj = document.createElement("audio");
+         obj.src="Audio/LowE String.Wav";
+         obj.volume= 1;
+         obj.autoPlay=false;
+         obj.preLoad=true;
+
+         $(".LowE").click(function() {
+             obj.play();
+         });
+
+     });
+
+     $(document).ready(function() {
+         var obj = document.createElement("audio");
+         obj.src="Audio/A String.Wav";
+         obj.volume= 1;
+         obj.autoPlay=false;
+         obj.preLoad=true;
+
+         $(".A").click(function() {
+             obj.play();
+         });
+
+     });
+
+     $(document).ready(function() {
+         var obj = document.createElement("audio");
+         obj.src="Audio/D String.Wav";
+         obj.volume= 1;
+         obj.autoPlay=false;
+         obj.preLoad=true;
+
+         $(".D").click(function() {
+             obj.play();
+         });
+
+     });
+
+     $(document).ready(function() {
+         var obj = document.createElement("audio");
+         obj.src="Audio/G String.Wav";
+         obj.volume= 1;
+         obj.autoPlay=false;
+         obj.preLoad=true;
+
+         $(".G").click(function() {
+             obj.play();
+         });
+
+     });
+
+     $(document).ready(function() {
+         var obj = document.createElement("audio");
+         obj.src="Audio/B String.Wav";
+         obj.volume= 1;
+         obj.autoPlay=false;
+         obj.preLoad=true;
+
+         $(".B").click(function() {
+             obj.play();
+         });
+
+     });
+
+     $(document).ready(function() {
+         var obj = document.createElement("audio");
+         obj.src="Audio/HighE String.Wav";
+         obj.volume= 1;
+         obj.autoPlay=false;
+         obj.preLoad=true;
+
+         $(".HighE").click(function() {
+             obj.play();
+         });
+
+     });
+
+ </script>
+
+
+
+
 
 </body>
