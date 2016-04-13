@@ -2,17 +2,18 @@ body {
   background-color: black;
 }
 h1 {
-  z-index: 2;
   color: white;
-  margin-left: auto;
+  margin-left: 40%;
+  padding-top: 5%;
+  font-size: 2em;
+}
+div {
+  margin-bottom: 0;
 }
 #Fretboard {
   position: fixed;
-  display: block;
   margin-left: 25%;
   margin-right: auto;
-  margin-top: 5%;
-  z-index: 1;
 }
 a {
   font-size: 1em;
@@ -45,6 +46,9 @@ img {
   .MenuBar {
     padding-top: 10%;
   }
+  h1 {
+    font-size: 3em;
+  }
   a {
     font-size: 2em;
   }
@@ -64,6 +68,9 @@ img {
   }
 }
 @media screen and (min-width: 900px) {
+  h1 {
+    font-size: 6em;
+  }
   img {
     max-width: 850px;
   }
