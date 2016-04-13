@@ -13,35 +13,14 @@ a {
   background-color: white;
   color: black;
 }
-.LowE {
-  position: relative;
-  margin-left: 20%;
-  margin-top: 45%;
+a:hover {
+  opacity: 0.7;
+  color: black;
+  background-color: blue;
 }
-.A {
-  position: relative;
-  top: 5px
-left: 20px;
-}
-.D {
-  position: relative;
-  top: 5px
-  left: 20px;
-}
-.G {
-  position: relative;
-  top: 5px
-  left: 20px;
-}
-.B {
-  position: relative;
-  top: 5px
-  left: 20px;
-}
-.HighE {
-  position: relative;
-  top: 5px
-  left: 20px;
+a:active {
+  color: yellow;
+  background-color: red;
 }
 img {
   max-width: 450px;
