@@ -141,17 +141,16 @@
 
      $(document).ready(function() {
          var obj = document.createElement("audio");
-         obj.src="Audio/LowE String.Wav", "Audio/HighE String.Wav" ;
+         obj.src="Audio/LowE String.Wav";
          obj.volume= 1;
          obj.autoPlay=false;
          obj.preLoad=true;
 
          $(".Strum").click(function() {
              obj.play();
-                obj.currentTime = 0; // Reset time
+              obj.currentTime = 0; // Reset time
          });
-
-
+         
      });
 
  </script>
