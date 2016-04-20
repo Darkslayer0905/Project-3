@@ -139,6 +139,7 @@
 
      });
 
+//Strum key javascript - work in progress
      $(document).ready(function() {
          var obj = document.createElement("audio");
          obj.src="Audio/LowE String.Wav";
@@ -146,11 +147,57 @@
          obj.autoPlay=false;
          obj.preLoad=true;
 
+         var obj2 = document.createElement("audio");
+         obj2.src="Audio/A String.Wav";
+         obj2.volume= 1;
+         obj2.autoPlay=false;
+         obj2.preLoad=true;
+
+         var obj3 = document.createElement("audio");
+         obj3.src="Audio/D String.Wav";
+         obj3.volume= 1;
+         obj3.autoPlay=false;
+         obj3.preLoad=true;
+
+         var obj4 = document.createElement("audio");
+         obj4.src="Audio/G String.Wav";
+         obj4.volume= 1;
+         obj4.autoPlay=false;
+         obj4.preLoad=true;
+
+         var obj5 = document.createElement("audio");
+         obj5.src="Audio/B String.Wav";
+         obj5.volume= 1;
+         obj5.autoPlay=false;
+         obj5.preLoad=true;
+
+         var obj6 = document.createElement("audio");
+         obj6.src="Audio/HighE String.Wav";
+         obj6.volume= 1;
+         obj6.autoPlay=false;
+         obj6.preLoad=true;
+
          $(".Strum").click(function() {
              obj.play();
               obj.currentTime = 0; // Reset time
          });
-         
+          $(".Strum").click(function() {
+             obj2.play();
+              obj2.currentTime = 0; // Reset time
+         });
+         $(".Strum").click(function() {
+             obj3.play();
+              obj3.currentTime = 0; // Reset time
+         }); $(".Strum").click(function() {
+              obj4.play();
+               obj4.currentTime = 0; // Reset time
+          }); $(".Strum").click(function() {
+               obj5.play();
+                obj5.currentTime = 0; // Reset time
+           }); $(".Strum").click(function() {
+                obj6.play();
+                 obj6.currentTime = 0; // Reset time
+            });
      });
 
  </script>

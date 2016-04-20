@@ -32,14 +32,18 @@ a {
   padding-top: 2.5%;
   padding-left: 25%;
 }
+.Strum {
+  position: relative;
+  margin-left: 80%;
+}
 a:hover {
   opacity: 0.7;
   color: black;
-  background-color: blue;
+  background-color: White;
 }
 a:active {
-  color: yellow;
-  background-color: red;
+  color: red;
+  background-color: black;
 }
 img {
   max-width: 200px;
