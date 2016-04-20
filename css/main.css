@@ -12,16 +12,20 @@ h1 {
   margin-left: 20%;
   margin-right: auto;
   margin-top: 5%;
+  padding-right: 10%;
 }
 a {
   font-size: 1em;
-  background-color: white;
-  color: black;
+  background-color: transparent;
+  color: white;
+  border: solid .080em;
+  border-radius: 1.1em;
+  cursor: pointer;
 }
 .MenuBar {
   position: relative;
   margin-left: 90%;
-  padding-top: 5%;
+  padding-top: 2.5%;
   padding-right: 5%;
 }
 a:hover {
@@ -34,9 +38,20 @@ a:active {
   background-color: red;
 }
 img {
-  max-width: 450px;
+  max-width: 100px;
 }
 @media screen and (min-width: 300px) {
+  img {
+    max-width: 200px;
+  }
+  .page-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 400px) {
+  img {
+    max-width: 300px;
+  }
   .page-container {
     width: 80%;
   }
@@ -49,7 +64,15 @@ img {
     font-size: 2em;
   }
   img {
-    max-width: 650px;
+    max-width: 400px;
+  }
+  .page-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 300px) {
+  img {
+    max-width: 500px;
   }
   .page-container {
     width: 80%;
@@ -57,7 +80,15 @@ img {
 }
 @media screen and (min-width: 700px) {
   img {
-    max-width: 650px;
+    max-width: 600px;
+  }
+  .page-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 800px) {
+  img {
+    max-width: 700px;
   }
   .page-container {
     width: 80%;
@@ -68,18 +99,18 @@ img {
     font-size: 6em;
   }
   img {
-    max-width: 850px;
+    max-width: 800px;
   }
   .page-container {
     width: 80%;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   a {
     font-size: 3em;
   }
   img {
-    max-width: 1050px;
+    max-width: 900px;
   }
   .page-container {
     width: 80%;
